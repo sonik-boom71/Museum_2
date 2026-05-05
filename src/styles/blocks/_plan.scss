@@ -23,6 +23,7 @@
     @include respond-to(tablet) {
       padding: 80px 40px;
       max-width: 50%;
+      margin-left: auto;
     }
 
     @include respond-to(desktop) {
@@ -61,7 +62,7 @@
 
     @include respond-to(tablet) {
       position: absolute;
-      right: 0;
+      left: 0;
       top: 0;
       height: 100%;
       width: 50%;

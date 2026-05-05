@@ -1,6 +1,7 @@
 .events {
   padding: 60px 20px;
-  background-color: $c-gray;
+  background-color: $c-white;
+  border-top: 1px solid $c-border;
 
   @include respond-to(tablet) {
     padding: 80px 40px;
@@ -21,7 +22,13 @@
   &__list {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 0;
+  }
+
+  &__divider {
+    border: none;
+    border-top: 1px solid rgba($c-dark, 0.12);
+    margin: 40px 0;
   }
 }
 

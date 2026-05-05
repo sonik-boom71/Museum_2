@@ -31,6 +31,19 @@
     }
   }
 
+  &__date {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: rgba($c-light, 0.7);
+    margin-bottom: 16px;
+
+    @include respond-to(tablet) {
+      display: none;
+    }
+  }
+
   &__title {
     font-family: $font-heading;
     font-size: 36px;
