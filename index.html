@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>NAMU</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/Museum_2/assets/logo-Ch1HYw-A.svg"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500;600;700&display=swap"
+    />
+    <script type="module" crossorigin src="/Museum_2/assets/index-k-k-RQXO.js"></script>
+    <link rel="stylesheet" crossorigin href="/Museum_2/assets/index-D6lR1p2G.css">
+  </head>
+  <body>
+
+    <header class="header" id="home">
+      <div class="header__inner">
+        <div class="header__info">
+          <span class="header__date" data-i18n="date">30 квітня - 30 листопада</span>
+        </div>
+
+        <a href="#" class="header__logo">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='117'%20height='26'%20viewBox='0%200%20117%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.72%200.215999V20.16L4.428%200.215999H0V25.416H3.6V4.932L18.36%2025.416H22.32V0.215999H18.72Z'%20fill='%23F1F5F4'/%3e%3cpath%20d='M48.737%200.215999V5.004C46.649%202.088%2043.409%200%2039.701%200C32.429%200%2027.173%205.4%2027.173%2012.816C27.173%2020.232%2032.429%2025.632%2039.701%2025.632C43.409%2025.632%2046.649%2023.544%2048.737%2020.628V25.416H52.229V0.215999H48.737ZM39.845%2022.32C34.697%2022.32%2030.953%2018.324%2030.953%2012.816C30.953%207.308%2034.697%203.312%2039.845%203.312C44.993%203.312%2048.737%207.308%2048.737%2012.816C48.737%2018.324%2044.993%2022.32%2039.845%2022.32Z'%20fill='%23F1F5F4'/%3e%3cpath%20d='M88.5909%200.215999H83.4429L73.7229%2021.168L63.9669%200.215999H58.7109V25.416H62.3109V4.896L71.8149%2025.416H75.4149L84.9909%204.716V25.416H88.5909V0.215999Z'%20fill='%23F1F5F4'/%3e%3cpath%20d='M105.683%2025.776C111.947%2025.776%20116.662%2021.204%20116.662%2015.12V0.215999H113.062V15.12C113.062%2019.224%20109.895%2022.32%20105.683%2022.32C101.471%2022.32%2098.3025%2019.224%2098.3025%2015.12V0.215999H94.7025V15.12C94.7025%2021.204%2099.4185%2025.776%20105.683%2025.776Z'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+            alt="NAMU"
+            class="header__logo-img"
+          />
+        </a>
+
+        <div class="header__controls">
+          <button
+            class="header__menu-btn"
+            id="menuBtn"
+            aria-label="Меню"
+            aria-expanded="false"
+          >
+            <img
+              src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20x='3'%20y='5'%20width='25'%20height='2'%20fill='%23F1F5F4'/%3e%3crect%20x='3'%20y='14'%20width='25'%20height='2'%20fill='%23F1F5F4'/%3e%3crect%20x='3'%20y='23'%20width='25'%20height='2'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+              alt=""
+              class="header__menu-icon"
+            />
+          </button>
+          <span class="header__lang">UA-</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-hidden="true">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#exhibitions" class="nav__link" data-i18n="nav-exhibitions">Виставки</a>
+          </li>
+          <li class="nav__item">
+            <a href="#events" class="nav__link" data-i18n="nav-events">Події</a>
+          </li>
+          <li class="nav__item">
+            <a href="#news" class="nav__link" data-i18n="nav-news">Новини</a>
+          </li>
+          <li class="nav__item">
+            <a href="#plan" class="nav__link" data-i18n="nav-visit">Відвідати</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <span class="hero__date" data-i18n="date">30 квітня – 30 листопада</span>
+        <h1 class="hero__title" data-i18n="hero-title">
+          Мистецтво XIX&nbsp;&ndash; XX&nbsp;ст.
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero-subtitle">
+          Внесок українських митців у світову культуру до XXI
+        </p>
+        <a href="#plan" class="button button--primary" data-i18n="btn-ticket">
+          Купити квиток
+        </a>
+        <div class="hero__counter">
+          <span class="hero__counter-num">01</span>
+          <span class="hero__counter-sep">/</span>
+          <span class="hero__counter-total">04</span>
+        </div>
+      </div>
+      <div class="hero__image-wrap">
+        <img
+          src="/Museum_2/assets/hero-girl-DT67AoCA.svg"
+          alt="Мистецтво XIX-XX ст."
+          class="hero__image"
+        />
+      </div>
+    </section>
+
+    <section class="exhibitions" id="exhibitions">
+      <div class="exhibitions__header">
+        <h2 class="section-title" data-i18n="exhibitions-title">Актуальні виставки</h2>
+        <a href="#exhibitions" class="link-more" data-i18n="exhibitions-link">
+          Архів виставок &rarr;
+        </a>
+      </div>
+
+      <div class="exhibitions__grid">
+        <article class="exhibition-card">
+          <div class="exhibition-card__image-wrap">
+            <img
+              src="/Museum_2/assets/exhibition-angels-BiJs_twi.jpg"
+              alt="Кураторська виставка &quot;Ангели&quot;"
+              class="exhibition-card__image"
+            />
+          </div>
+          <div class="exhibition-card__body">
+            <span class="exhibition-card__date" data-i18n="card1-date">11.07 - 31.08</span>
+            <h3 class="exhibition-card__title" data-i18n="card1-title">
+              Кураторська виставка &ldquo;Ангели&rdquo;
+            </h3>
+            <p class="exhibition-card__desc" data-i18n="card1-desc">
+              Виставковий проект «Ангели» — знакова подія для
+              української культури і широкої глядацької аудиторії
+              впродовж сімнадцяти.
+            </p>
+            <a href="#plan" class="button button--primary" data-i18n="btn-ticket">
+              Купити квиток
+            </a>
+          </div>
+        </article>
+
+        <article class="exhibition-card">
+          <div class="exhibition-card__image-wrap">
+            <img
+              src="/Museum_2/assets/exhibition-art-BmZnT7yG.jpg"
+              alt="Мистецтво XX ст. – XXI ст."
+              class="exhibition-card__image"
+            />
+          </div>
+          <div class="exhibition-card__body">
+            <span class="exhibition-card__date" data-i18n="card2-date">06 листопад</span>
+            <h3 class="exhibition-card__title" data-i18n="card2-title">
+              Мистецтво XX ст. &ndash; XXI ст.
+            </h3>
+            <p class="exhibition-card__desc" data-i18n="card2-desc">
+              Знакові роботи Анни Горської, Миколи Самокиша,
+              Федора Кричевського та інших митців.
+            </p>
+            <a href="#plan" class="button button--primary" data-i18n="btn-ticket">
+              Купити квиток
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="events" id="events">
+      <div class="events__header">
+        <h2 class="section-title" data-i18n="events-title">Найближчі події</h2>
+        <a href="#events" class="link-more" data-i18n="events-link">
+          Календар подій &rarr;
+        </a>
+      </div>
+
+      <div class="events__list">
+        <article class="event-card">
+          <div class="event-card__image-wrap">
+            <img
+              src="/Museum_2/assets/event-gudimov-v0s6La_l.jpg"
+              alt="Кураторські екскурсії від Павла Гудімова"
+              class="event-card__image"
+            />
+          </div>
+          <div class="event-card__body">
+            <span class="event-card__date" data-i18n="event1-date">14/8 в 13:00</span>
+            <h3 class="event-card__title" data-i18n="event1-title">
+              Кураторські екскурсії від Павла Гудімова
+            </h3>
+            <p class="event-card__desc" data-i18n="event1-desc">
+              Таємниця творчості, складний мистецький шлях — все це
+              та ні цього немає в нашій пропозиції — розпочинається
+              нова глава.
+            </p>
+            <a href="#plan" class="button button--primary" data-i18n="btn-register">
+              Зареєструватись
+            </a>
+          </div>
+        </article>
+
+        <hr class="events__divider" />
+
+        <article class="event-card">
+          <div class="event-card__image-wrap">
+            <img
+              src="/Museum_2/assets/event-masterclass-BoZF0NKb.jpg"
+              alt="Майстер-клас «Подорож до Австралії»"
+              class="event-card__image"
+            />
+          </div>
+          <div class="event-card__body">
+            <span class="event-card__date" data-i18n="event2-date">20/8 в 15:00</span>
+            <h3 class="event-card__title" data-i18n="event2-title">
+              Майстер-клас «Подорож до Австралії»
+            </h3>
+            <p class="event-card__desc" data-i18n="event2-desc">
+              Цей майстер-клас від нас арт-мандрівника можна
+              вважати останнім пунктом кругосвітньої подорожі —
+              тестів є.
+            </p>
+            <a href="#plan" class="button button--primary" data-i18n="btn-register">
+              Зареєструватись
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="plan" id="plan">
+      <div class="plan__inner">
+        <div class="plan__content">
+          <h2 class="plan__title" data-i18n="plan-title">
+            Сплануйте візит до музею
+          </h2>
+          <p class="plan__desc" data-i18n="plan-desc">
+            Оберіть зручний день, зареєструйтеся на той захід, що
+            цікавить вас, або просто завітайте до нас — ми завжди
+            раді допомогти вам насолодитися мистецтвом.
+          </p>
+          <a href="#subscribe" class="button button--primary" data-i18n="btn-start">
+            Почати
+          </a>
+        </div>
+        <div class="plan__image-wrap">
+          <img
+            src="/Museum_2/assets/plan-bg-i14CenDJ.svg"
+            alt="Сплануйте візит до музею"
+            class="plan__image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="news" id="news">
+      <div class="news__header">
+        <h2 class="section-title" data-i18n="news-title">Новини</h2>
+        <a href="#news" class="link-more" data-i18n="news-link">
+          Усі новини &rarr;
+        </a>
+      </div>
+
+      <div class="news__grid">
+        <article class="news-card">
+          <div class="news-card__image-wrap">
+            <img
+              src="/Museum_2/assets/news-postcards-Djv0Pl2c.jpg"
+              alt="Оголошення переможця"
+              class="news-card__image"
+            />
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__category" data-i18n="news1-date">5 травня 2022</span>
+            <h3 class="news-card__title" data-i18n="news1-title">Оголошення переможця</h3>
+            <p class="news-card__desc" data-i18n="news1-desc">
+              Друга картина Поляці Поляця для А це більш обмежений
+              видатних успіхів що здобув перемогу розповсюджується.
+            </p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <div class="news-card__image-wrap">
+            <img
+              src="/Museum_2/assets/news-cats-OQ8K1iES.jpg"
+              alt="Міжнародний день котів"
+              class="news-card__image"
+            />
+          </div>
+          <div class="news-card__body">
+            <span class="news-card__category" data-i18n="news2-date">5 травня 2022</span>
+            <h3 class="news-card__title" data-i18n="news2-title">Міжнародний день котів</h3>
+            <p class="news-card__desc" data-i18n="news2-desc">
+              Музей у своєму розмаїтті простих вагань перетворює
+              Міжнародний день котів на нечувано яскраву подію.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+      <div class="subscribe__inner">
+        <h2 class="subscribe__title" data-i18n="subscribe-title">Підпишіться на дайджест</h2>
+        <p class="subscribe__desc" data-i18n="subscribe-desc">
+          Першими дізнавайтесь про нові новини та розробки,
+          отримуйте запрошення подій та читайте статті від куратора.
+        </p>
+        <form
+          class="subscribe__form"
+          id="subscribeForm"
+          novalidate
+        >
+          <input
+            type="email"
+            class="subscribe__input"
+            placeholder="e-mail"
+            data-i18n-placeholder="subscribe-placeholder"
+            required
+            autocomplete="email"
+            aria-label="Ваш e-mail"
+          />
+          <button
+            type="submit"
+            class="button button--primary"
+            data-i18n="btn-subscribe"
+          >
+            Підписатись
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__col footer__col--contacts">
+          <h3 class="footer__heading" data-i18n="footer-contacts">Контакти</h3>
+          <address class="footer__address">
+            <a
+              href="https://maps.google.com/?q=Київ,+вул.+М.+Грушевського+6"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__contact-link"
+              data-i18n="footer-address"
+            >
+              Київ, вул. М. Грушевського 6
+            </a>
+          </address>
+          <a
+            href="tel:+380442786284"
+            class="footer__contact-link"
+          >
+            тел. (044) 278-62-84
+          </a>
+          <a
+            href="tel:+380442783257"
+            class="footer__contact-link"
+          >
+            тел. (044) 278-32-57
+          </a>
+          <a
+            href="mailto:official@namu.kyiv.ua"
+            class="footer__contact-link"
+          >
+            official@namu.kyiv.ua
+          </a>
+          <div class="footer__socials">
+            <a
+              href="https://www.facebook.com/namu.kyiv"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              aria-label="Facebook"
+            >
+              <img
+                src="data:image/svg+xml,%3csvg%20width='10'%20height='20'%20viewBox='0%200%2010%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M2.90909%2010.9434V20H6.54545V10.9434H9.27273L10%207.16981H6.54545V4.5283C6.54545%203.96226%207.09091%203.39623%207.63636%203.39623H10V0H5.81818C4.90909%200%202.90909%201.32075%202.90909%203.39623V7.16981H0V10.9434H2.90909Z'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+                alt="Facebook"
+                class="footer__social-icon"
+              />
+            </a>
+            <a
+              href="https://t.me/namukyiv"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              aria-label="Telegram"
+            >
+              <img
+                src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M7.62887%2017.4639L10.9278%2014.2887L16.4948%2019.0515L20%200L0%208.16495L5.56701%2010.8866L7.62887%2017.4639ZM8.0412%2015.6495V12.0207L16.4948%203.85572L6.18553%2010.433L8.0412%2016.1031V15.6495Z'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+                alt="Telegram"
+                class="footer__social-icon"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/namu.kyiv/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              aria-label="Instagram"
+            >
+              <img
+                src="data:image/svg+xml,%3csvg%20width='17'%20height='17'%20viewBox='0%200%2017%2017'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M0%2013.2442V2.56977C0%201.38372%201.38372%200%202.76744%200H14.2326C15.814%200%2017%201.5814%2017%203.36047V14.0349C17%2015.2209%2016.0116%2017%2013.8372%2017H3.95349C1.77907%2017%200%2015.4186%200%2013.2442ZM8.50003%205.54189C6.8663%205.54189%205.54189%206.8663%205.54189%208.50003C5.54189%2010.1338%206.8663%2011.4582%208.50003%2011.4582C10.1338%2011.4582%2011.4582%2010.1338%2011.4582%208.50003C11.4582%206.8663%2010.1338%205.54189%208.50003%205.54189ZM4.34189%208.50003C4.34189%206.20356%206.20356%204.34189%208.50003%204.34189C10.7965%204.34189%2012.6582%206.20356%2012.6582%208.50003C12.6582%2010.7965%2010.7965%2012.6582%208.50003%2012.6582C6.20356%2012.6582%204.34189%2010.7965%204.34189%208.50003ZM13.0466%204.5465C13.5924%204.5465%2014.035%204.10399%2014.035%203.55813C14.035%203.01226%2013.5924%202.56976%2013.0466%202.56976C12.5007%202.56976%2012.0582%203.01226%2012.0582%203.55813C12.0582%204.10399%2012.5007%204.5465%2013.0466%204.5465Z'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+                alt="Instagram"
+                class="footer__social-icon"
+              />
+            </a>
+            <a
+              href="https://twitter.com/namu_kyiv"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer__social"
+              aria-label="Twitter"
+            >
+              <img
+                src="data:image/svg+xml,%3csvg%20width='20'%20height='16'%20viewBox='0%200%2020%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M3.78947%2013.9669C2.94737%2014.4548%200.912281%2014.4412%200%2014.3734C0.421053%2014.78%203.57895%2016%206.52632%2016C9.47368%2016%2011.5789%2015.5934%2015.1579%2012.3408C18.0211%209.73865%2018.3158%205.971%2018.1053%204.41244L20%202.37953H18.3158L19.3684%200.346626C18.5965%200.820951%2017.0105%201.64763%2016.8421%201.15973C16.6316%200.549857%2013.6842%20-0.873177%2011.1579%200.753142C9.13684%202.0542%209.47368%203.80257%209.68421%205.22553C5.89474%204.81902%201.05263%200.753142%201.05263%200.753142C-0.122503%202.86053%201.46337%205.41233%202.09911%206.43529L2.10526%206.4452L0.631579%206.03862C0.631579%207.82757%202.31579%209.08812%203.15789%209.69776H1.89474C2.56842%2011.4867%204.70175%2012.4761%205.68421%2012.7471C5.40351%2012.9504%204.63158%2013.479%203.78947%2013.9669Z'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+                alt="Twitter"
+                class="footer__social-icon"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__col footer__col--schedule">
+          <h3 class="footer__heading" data-i18n="footer-schedule">Розклад роботи</h3>
+          <ul class="footer__schedule">
+            <li class="footer__schedule-item">
+              <span data-i18n="day-mon">Пн.</span>
+              <span data-i18n="day-off">виходний</span>
+            </li>
+            <li class="footer__schedule-item">
+              <span data-i18n="day-tue">Вт.</span>
+              <span data-i18n="day-off">виходний</span>
+            </li>
+            <li class="footer__schedule-item">
+              <span data-i18n="day-wed">Ср.</span>
+              <span>10:00 - 18:00</span>
+            </li>
+            <li class="footer__schedule-item">
+              <span data-i18n="day-thu">Чт.</span>
+              <span>10:00 - 20:00</span>
+            </li>
+            <li class="footer__schedule-item">
+              <span data-i18n="day-fri">Пт.</span>
+              <span>10:00 - 18:00</span>
+            </li>
+            <li class="footer__schedule-item">
+              <span data-i18n="day-sat">Сб.</span>
+              <span>10:00 - 18:00</span>
+            </li>
+            <li class="footer__schedule-item">
+              <span data-i18n="day-sun">Нд.</span>
+              <span>10:00 - 18:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--nav">
+          <h3 class="footer__heading" data-i18n="footer-nav">Головна</h3>
+          <ul class="footer__nav">
+            <li>
+              <a href="#exhibitions" class="footer__nav-link" data-i18n="nav-exhibitions">
+                Виставки
+              </a>
+            </li>
+            <li>
+              <a href="#events" class="footer__nav-link" data-i18n="nav-events">
+                Події
+              </a>
+            </li>
+            <li>
+              <a href="#news" class="footer__nav-link" data-i18n="nav-news">
+                Новини
+              </a>
+            </li>
+            <li>
+              <a href="#plan" class="footer__nav-link" data-i18n="nav-visit">
+                Відвідати
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <a href="#" class="footer__logo">
+          <img
+            src="data:image/svg+xml,%3csvg%20width='117'%20height='26'%20viewBox='0%200%20117%2026'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M18.72%200.215999V20.16L4.428%200.215999H0V25.416H3.6V4.932L18.36%2025.416H22.32V0.215999H18.72Z'%20fill='%23F1F5F4'/%3e%3cpath%20d='M48.737%200.215999V5.004C46.649%202.088%2043.409%200%2039.701%200C32.429%200%2027.173%205.4%2027.173%2012.816C27.173%2020.232%2032.429%2025.632%2039.701%2025.632C43.409%2025.632%2046.649%2023.544%2048.737%2020.628V25.416H52.229V0.215999H48.737ZM39.845%2022.32C34.697%2022.32%2030.953%2018.324%2030.953%2012.816C30.953%207.308%2034.697%203.312%2039.845%203.312C44.993%203.312%2048.737%207.308%2048.737%2012.816C48.737%2018.324%2044.993%2022.32%2039.845%2022.32Z'%20fill='%23F1F5F4'/%3e%3cpath%20d='M88.5909%200.215999H83.4429L73.7229%2021.168L63.9669%200.215999H58.7109V25.416H62.3109V4.896L71.8149%2025.416H75.4149L84.9909%204.716V25.416H88.5909V0.215999Z'%20fill='%23F1F5F4'/%3e%3cpath%20d='M105.683%2025.776C111.947%2025.776%20116.662%2021.204%20116.662%2015.12V0.215999H113.062V15.12C113.062%2019.224%20109.895%2022.32%20105.683%2022.32C101.471%2022.32%2098.3025%2019.224%2098.3025%2015.12V0.215999H94.7025V15.12C94.7025%2021.204%2099.4185%2025.776%20105.683%2025.776Z'%20fill='%23F1F5F4'/%3e%3c/svg%3e"
+            alt="NAMU"
+            class="footer__logo-img"
+          />
+        </a>
+        <div class="footer__links">
+          <a href="#" class="footer__link" data-i18n="footer-terms">Умови</a>
+          <a href="#" class="footer__link" data-i18n="footer-tickets">Квитки</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
