@@ -82,6 +82,7 @@
     font-weight: 600;
     color: $c-light;
     cursor: pointer;
+    user-select: none;
     transition: opacity $transition;
 
     &:hover {

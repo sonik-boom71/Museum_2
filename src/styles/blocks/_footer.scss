@@ -145,8 +145,19 @@
     filter: brightness(0) invert(1);
   }
 
-  &__copy {
+  &__links {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__link {
     font-size: 12px;
     color: rgba($c-light, 0.5);
+    text-decoration: none;
+    transition: color $transition;
+
+    &:hover {
+      color: $c-light;
+    }
   }
 }

@@ -3,6 +3,7 @@
 const menuBtn = document.getElementById('menuBtn');
 const nav = document.getElementById('nav');
 const subscribeForm = document.getElementById('subscribeForm');
+const langBtn = document.querySelector('.header__lang');
 
 if (menuBtn && nav) {
   menuBtn.addEventListener('click', () => {
@@ -21,19 +22,27 @@ if (menuBtn && nav) {
   });
 }
 
+if (langBtn) {
+  langBtn.addEventListener('click', () => {
+    const isUa = langBtn.textContent.trim() === 'UA-';
+
+    langBtn.textContent = isUa ? 'EN-' : 'UA-';
+  });
+}
+
 if (subscribeForm) {
   subscribeForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
     const emailInput = subscribeForm.querySelector('input[type="email"]');
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-    if (!emailInput || !emailInput.value.trim()) {
+    if (!emailInput || !emailRegex.test(emailInput.value.trim())) {
       emailInput.focus();
 
       return;
     }
 
     subscribeForm.reset();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 }
